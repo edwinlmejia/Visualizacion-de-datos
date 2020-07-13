@@ -7,3 +7,7 @@ h1, p {
  height: 300px;
 
 }
+
+@media print {
+      .pagebreak {page-break-before: always;}
+  }
